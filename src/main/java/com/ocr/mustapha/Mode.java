@@ -62,7 +62,11 @@ public class Mode {
             System.out.println("envie de rejouer ?");
             System.out.println("0- Oui , 1 - Non  ");
             exit = sc.nextInt();
+            if(exit == 1 ){
+                LOGGER.info("Goodbye !");
+            }
         } while (exit != 1);
+
 
     }
 }
