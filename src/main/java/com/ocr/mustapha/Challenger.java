@@ -1,5 +1,9 @@
 package com.ocr.mustapha;
 import java.util.Scanner;
+import static com.ocr.mustapha.Main.LOGGER;
+
+
+
 public class Challenger {
     /**
      *
@@ -36,7 +40,9 @@ public class Challenger {
      *
      */
     public void runChallenger(){
-        System.out.println("*****Bienvenue dans le mode Challenger !*****");
+
+        LOGGER.info("\n*****Bienvenue dans le mode Challenger !*****");
+
 
         String solution = "", proposition = "";
         System.out.println("Attaquant : Veuillez entrer une combinaison de chiffres !");
@@ -45,7 +51,7 @@ public class Challenger {
         int chance = 10;
         boolean gagner = false;
 
-        System.out.println(" Défenseur: Vous avez  " + chance + " chances  pour trouver la combinaison de " + solution.length() + " chiffres c'est à vous !");
+        System.out.println("Défenseur: Vous avez  " + chance + " chances  pour trouver la combinaison de " + solution.length() + " chiffres c'est à vous !");
 
 
         while (chance != 0 && gagner == false) {

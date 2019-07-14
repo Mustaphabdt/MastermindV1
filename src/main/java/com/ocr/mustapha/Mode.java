@@ -1,13 +1,15 @@
 package com.ocr.mustapha;
 import java.util.Scanner;
 
+import static com.ocr.mustapha.Main.LOGGER;
+
 /**
- *
+ * @Class permettant le lancement des different mode de jeu
  */
 public class Mode {
 
     /**
-     *
+     *  @Method lancé par le Main permettant de acccéder au menu principale de l'application
      */
     public static void runMode()
 
@@ -17,7 +19,7 @@ public class Mode {
 
         do {
 
-            System.out.println("Menu principal");
+            LOGGER.info("\nMenu principal:");
             System.out.println("1- Defender");
             System.out.println("2- Challenger");
             System.out.println("3- Duel ");

@@ -2,6 +2,8 @@ package com.ocr.mustapha;
 import java.util.Random;
 import java.util.Scanner;
 
+import static com.ocr.mustapha.Main.LOGGER;
+
 
 public class Defender {
     /**
@@ -43,11 +45,12 @@ public class Defender {
      *
      */
     public static void runDefender(){
+
         int chance = 10 ;
         boolean gagner = false;
         String solution = "", proposition = "";
         Scanner sc = new Scanner(System.in);
-        System.out.println("*****Bienvenue dans le mode Defender !*****");
+        LOGGER.info("\n*****Bienvenue dans le mode Defender !*****");
         System.out.println("Attaquant : Veuillez entrer une combinaison de chiffres !");
         solution = sc.nextLine();
 

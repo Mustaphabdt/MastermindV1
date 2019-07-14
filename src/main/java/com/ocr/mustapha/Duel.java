@@ -1,6 +1,7 @@
 package com.ocr.mustapha;
 import java.util.Random;
 import java.util.Scanner;
+import static com.ocr.mustapha.Main.LOGGER;
 
 public class Duel {
     /**
@@ -9,7 +10,7 @@ public class Duel {
      * @param max
      * @return
      */
-    public static int generateRandomIntIntRange(int min, int max) {
+        public static int generateRandomIntIntRange(int min, int max) {
         Random r = new Random();
         return r.nextInt((max - min) + 1) + min;
     }
@@ -47,7 +48,7 @@ public class Duel {
      */
     public static void runDuel() {
 
-        System.out.println("*****Bienvenue dans le mode Duel !*****");
+        LOGGER.info("\n*****Bienvenue dans le mode Duel !*****");
         int chance = 10;
         boolean gagner = false;
 
