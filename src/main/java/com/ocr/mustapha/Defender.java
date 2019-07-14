@@ -52,18 +52,6 @@ public class Defender {
         solution = sc.nextLine();
 
 
-
-
-        try{
-
-            solution = sc.nextLine();
-
-        }
-        catch (Exception r ) {
-            System.out.println("Vous devez entrez un entier valide");
-            sc.next();
-        }
-
         System.out.println("la combinaison secrete : " + solution);
         System.out.println(" Défenseur: Vous avez  " + chance + "chances  pour trouver la combinaison de " + solution.length() + " chiffres c'est à vous !");
 
@@ -71,15 +59,20 @@ public class Defender {
         // proposition est défini par l'ordinateur
         // System.out.println(proposition);
 
-        while (chance >= 1 && gagner == false) {
+        while (chance >= 0 && gagner == false) {
+
             chance--;  // a chaque tour de boucle la valeur chance est décrementé
+
             System.out.println("l'ordianteur fait une proposition il lui reste " + chance + " chance");  //
+
             if (proposition.length() != solution.length()) {
                 System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution veuillez recommancer");
                 // Si Longueur  de la solution n'est pas respecter
             }
+
             String prochaineProposition = "";// optionel permet de verifié les proposition de l'ordianateur
             System.out.println(proposition);//optionel permet de verifié les proposition de l'ordianateur
+
             for (int i = 0; i < solution.length(); i++) {
 
                 if (Character.getNumericValue(solution.charAt(i)) == Character.getNumericValue(proposition.charAt(i))) {// recupère la valeur charAt(i)

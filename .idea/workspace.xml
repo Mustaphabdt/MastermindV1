@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="060216f5-a343-49f7-a696-507bfcc3e936" name="Default Changelist" comment="Version 1.0 Du Mastermind Project 3 de la formation J2EE de Openclassrooms">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MastermindV1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MastermindV1.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Challenger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Defender.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Duel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Mode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,7 +41,70 @@
     <favorites_list name="MastermindV1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="224">
+                  <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="874">
+                  <caret line="88" selection-start-line="88" selection-end-line="88" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="161" selection-start-line="161" selection-end-line="161" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,8 +146,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="462" />
-    <option name="y" value="102" />
+    <option name="x" value="460" />
+    <option name="y" value="100" />
     <option name="width" value="930" />
     <option name="height" value="1090" />
   </component>
@@ -117,79 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mustapha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MastermindV1" type="58d84e3e:PackageViewProjectNode" />
-              <item name="MastermindV1" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="58d84e3e:PackageViewProjectNode" />
-              <item name="MastermindV1" type="616d4139:PackageViewModuleNode" />
-              <item name="com.ocr.mustapha" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
           <expand>
@@ -241,6 +208,103 @@
               <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com.ocr" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="com.ocr.mustapha" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mustapha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.logging.log4j:log4j-api:2.6.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.logging.log4j:log4j-api:2.6.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="log4j-api-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.logging.log4j:log4j-core:2.6.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.logging.log4j:log4j-core:2.6.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="log4j-core-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.logging.log4j:log4j-core:2.6.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="log4j-core-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MastermindV1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MastermindV1" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="58d84e3e:PackageViewProjectNode" />
+              <item name="MastermindV1" type="616d4139:PackageViewModuleNode" />
+              <item name="com.ocr.mustapha" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -385,17 +449,28 @@
       <workItem from="1562511556431" duration="79000" />
       <workItem from="1562511666520" duration="9576000" />
       <workItem from="1562608171052" duration="3752000" />
-      <workItem from="1562780776833" duration="1062000" />
+      <workItem from="1562780776833" duration="3473000" />
+      <workItem from="1562850474191" duration="169000" />
+      <workItem from="1562852485306" duration="695000" />
+      <workItem from="1563101690654" duration="415000" />
     </task>
+    <task id="LOCAL-00001" summary="Version 1.0 Du Mastermind Project 3 de la formation J2EE de Openclassrooms">
+      <created>1562781895524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562781895524</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47538000" />
+    <option name="totallyTimeSpent" value="51228000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1474" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1475" height="878" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4877345" visible="true" weight="0.18316832" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4877345" weight="0.17667845" />
       <window_info id="Structure" order="1" sideWeight="0.5122655" side_tool="true" weight="0.23408769" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -403,17 +478,17 @@
       <window_info id="Favorites" order="5" sideWeight="0.5086042" side_tool="true" weight="0.23055163" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49787837" visible="true" weight="0.34054834" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4992928" weight="0.32756132" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49787837" weight="0.34024897" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.4992928" visible="true" weight="0.32780084" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5021216" side_tool="true" visible="true" weight="0.34054834" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50388694" side_tool="true" weight="0.39695713" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49787837" weight="0.3982684" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49611306" weight="0.39695713" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.24531025" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4992928" weight="0.24531025" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32880846" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32900432" />
@@ -428,33 +503,34 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48659003" visible="true" weight="0.19648094" />
-      <window_info id="Structure" order="1" sideWeight="0.51341" side_tool="true" weight="0.13719943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4877345" visible="true" weight="0.17667845" />
+      <window_info id="Structure" order="1" sideWeight="0.5122655" side_tool="true" weight="0.23408769" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" weight="0.32956153" />
+      <window_info id="Favorites" order="5" sideWeight="0.5086042" side_tool="true" weight="0.23055163" />
       <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32880846" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5014663" side_tool="true" weight="0.39939487" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49853373" visible="true" weight="0.39939487" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.24659607" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49787837" weight="0.34054834" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4992928" weight="0.32756132" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50388694" side_tool="true" visible="true" weight="0.39695713" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49611306" visible="true" weight="0.39695713" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4992928" weight="0.24531025" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32880846" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32900432" />
       <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2496464" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32956153" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32991204" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32956153" />
       <window_info anchor="right" id="Palette" order="6" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -502,6 +578,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version 1.0 Du Mastermind Project 3 de la formation J2EE de Openclassrooms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0 Du Mastermind Project 3 de la formation J2EE de Openclassrooms" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -562,16 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3840">
-          <caret line="161" selection-start-line="161" selection-end-line="161" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MastermindV1.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -586,10 +656,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.6.1/log4j-core-2.6.1.jar!/Log4j-levels.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="120">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.6.1/log4j-core-2.6.1.jar!/Log4j-events.dtd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.6.1/log4j-core-2.6.1.jar!/Log4j-config.xsd">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -598,15 +681,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="874">
           <caret line="88" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state relative-caret-position="171">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
