@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="060216f5-a343-49f7-a696-507bfcc3e936" name="Default Changelist" comment="Version 1.0 Du Mastermind Project 3 de la formation J2EE de Openclassrooms">
+    <list default="true" id="060216f5-a343-49f7-a696-507bfcc3e936" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -452,7 +451,7 @@
       <workItem from="1562780776833" duration="3473000" />
       <workItem from="1562850474191" duration="169000" />
       <workItem from="1562852485306" duration="695000" />
-      <workItem from="1563101690654" duration="415000" />
+      <workItem from="1563101690654" duration="685000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.0 Du Mastermind Project 3 de la formation J2EE de Openclassrooms">
       <created>1562781895524</created>
@@ -461,11 +460,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562781895524</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change  chance conditions in &quot;if&quot; for resolve mistake chance counter (-1)">
+      <created>1563102366498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563102366498</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51228000" />
+    <option name="totallyTimeSpent" value="51498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1475" height="878" extended-state="6" />
@@ -478,8 +484,8 @@
       <window_info id="Favorites" order="5" sideWeight="0.5086042" side_tool="true" weight="0.23055163" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49787837" weight="0.34024897" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.4992928" visible="true" weight="0.32780084" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="1" sideWeight="0.49787837" visible="true" weight="0.34024897" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4992928" weight="0.32780084" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50388694" side_tool="true" weight="0.39695713" />
       <window_info anchor="bottom" id="Message" order="5" />
@@ -581,7 +587,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 1.0 Du Mastermind Project 3 de la formation J2EE de Openclassrooms" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0 Du Mastermind Project 3 de la formation J2EE de Openclassrooms" />
+    <MESSAGE value="Change  var chance  in &quot;if&quot; for resolve mistake chance counter (-1)" />
+    <MESSAGE value="Change  chance conditions in &quot;if&quot; for resolve mistake chance counter (-1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change  chance conditions in &quot;if&quot; for resolve mistake chance counter (-1)" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
