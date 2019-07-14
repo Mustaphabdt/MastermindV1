@@ -59,7 +59,7 @@ public class Defender {
         // proposition est défini par l'ordinateur
         // System.out.println(proposition);
 
-        while (chance >= 0 && gagner == false) {
+        while (chance != 0 && gagner == false) {
 
             chance--;  // a chaque tour de boucle la valeur chance est décrementé
 

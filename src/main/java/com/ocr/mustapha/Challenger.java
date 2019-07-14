@@ -38,7 +38,7 @@ public class Challenger {
     public void runChallenger(){
         System.out.println("*****Bienvenue dans le mode Challenger !*****");
 
-        String solution = null, proposition = null;
+        String solution = "", proposition = "";
         System.out.println("Attaquant : Veuillez entrer une combinaison de chiffres !");
         solution = getAlphaNumericString(4);
         System.out.println("la combinaison secrete : " + solution);
@@ -48,7 +48,7 @@ public class Challenger {
         System.out.println(" Défenseur: Vous avez  " + chance + " chances  pour trouver la combinaison de " + solution.length() + " chiffres c'est à vous !");
 
 
-        while (chance >= 0 && gagner == false) {
+        while (chance != 0 && gagner == false) {
             chance--;
 
             Scanner sc2 = new Scanner(System.in);
