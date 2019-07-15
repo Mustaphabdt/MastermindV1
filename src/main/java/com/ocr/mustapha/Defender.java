@@ -1,8 +1,13 @@
 package com.ocr.mustapha;
+
+
+import configuration.Configuration;
+
 import java.util.Random;
 import java.util.Scanner;
 
 import static com.ocr.mustapha.Main.LOGGER;
+
 
 
 public class Defender {
@@ -45,8 +50,8 @@ public class Defender {
      *
      */
     public static void runDefender(){
-
-        int chance = 10 ;
+        Configuration c = new Configuration();
+        int chance = c.getChance();
         boolean gagner = false;
         String solution = "", proposition = "";
         Scanner sc = new Scanner(System.in);

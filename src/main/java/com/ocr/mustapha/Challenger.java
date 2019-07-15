@@ -1,4 +1,7 @@
 package com.ocr.mustapha;
+
+
+import configuration.Configuration;
 import java.util.Scanner;
 import static com.ocr.mustapha.Main.LOGGER;
 
@@ -19,7 +22,9 @@ public class Challenger {
         // create StringBuffer size of AlphaNumericString
         StringBuilder sb = new StringBuilder(n);
 
-        for (int i = 0; i < n; i++) {
+        Configuration c = new Configuration();
+
+        for (int i = 0; i < c.getlgCombinaison(); i++) {
 
             // generate a random number between
             // 0 to AlphaNumericString variable length
@@ -33,22 +38,26 @@ public class Challenger {
         }
 
         return sb.toString();
-    }// la méthode ci dessus permet de générer un string aléatoire de la longeur que l'on veut.
+    }// la méthode ci dessus permet de générer un string aléatoire de la longeur que l'on veut variable a generer avec config.properties
 
 
     /**
      *
      */
     public void runChallenger(){
+        Configuration nb = new Configuration();
 
         LOGGER.info("\n*****Bienvenue dans le mode Challenger !*****");
 
 
         String solution = "", proposition = "";
         System.out.println("Attaquant : Veuillez entrer une combinaison de chiffres !");
-        solution = getAlphaNumericString(4);
+        solution = getAlphaNumericString(nb.getlgCombinaison());
         System.out.println("la combinaison secrete : " + solution);
-        int chance = 10;
+
+        Configuration c = new Configuration();
+        int chance = c.getChance();
+
         boolean gagner = false;
 
         System.out.println("Défenseur: Vous avez  " + chance + " chances  pour trouver la combinaison de " + solution.length() + " chiffres c'est à vous !");
@@ -58,13 +67,15 @@ public class Challenger {
             chance--;
 
             Scanner sc2 = new Scanner(System.in);
-            proposition = sc2.nextLine();  // proposition est défini par l'utilisateur .
+
 
             System.out.println("Faites une proposition il vous reste " + chance + " chances");  //
-            if (proposition.length() != solution.length()) {
-                System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution veuillez recommancer");
-                // Si Longueur  de la solution n'est pas respecter
-            }
+            try{
+                proposition = sc2.nextLine();  // proposition est défini par l'utilisateur .
+                if (proposition.length() != solution.length()) {
+                    System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution veuillez recommancer");
+                    // Si Longueur  de la solution n'est pas respecter
+
 
             for (int i = 0; i < solution.length(); i++) {
                 if (Character.getNumericValue(solution.charAt(i)) == Character.getNumericValue(proposition.charAt(i))) {// recupère la valeur charAt(i) string en int correspondant a la valeur du tableau ASCII getNumericValue permet de le convertir dans le tableau  ASCII
@@ -79,6 +90,11 @@ public class Challenger {
 
 
             }
+                }
+            }catch (Exception a){
+                System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution veuillez recommancer");
+                sc2.nextInt();
+            }
             System.out.println();
 
             if (proposition.equals(solution)) {
@@ -88,7 +104,7 @@ public class Challenger {
 
             }
             if (chance == 0) {
-                System.out.println("Vous n'avez plus de chance!");
+                System.out.println(" Vous n'avez plus de chance! ");
             }
         }
     }

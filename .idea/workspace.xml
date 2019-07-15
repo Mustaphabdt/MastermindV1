@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="060216f5-a343-49f7-a696-507bfcc3e936" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/configuration/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/java/io/annotations.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MastermindV1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MastermindV1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Challenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Challenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Defender.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Defender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Mode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Mode.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,93 +52,131 @@
     <favorites_list name="MastermindV1" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5494585">
-      <split-first>
-        <splitter split-orientation="vertical" split-proportion="0.73773587">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="43">
-                      <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-                      <folding>
-                        <element signature="imports" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="513">
-                      <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-                      <folding>
-                        <element signature="imports" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="114">
-                      <caret line="50" column="65" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
-                      <folding>
-                        <element signature="imports" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="37">
-                      <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
-                      <folding>
-                        <element signature="imports" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="22" column="8" selection-start-line="21" selection-start-column="33" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="53" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="106" column="68" lean-forward="true" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StringLatin1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="692" column="32" selection-start-line="692" selection-start-column="32" selection-end-line="692" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/configuration/Configuration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ResourceBundle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="853" column="39" selection-start-line="853" selection-start-column="39" selection-end-line="853" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Tag Library Descriptor" />
         <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="XML Properties File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>chance</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\musta\OneDrive\Bureau\open classrooms\ProjetP3\MastermindV1\src\main\java\configuration</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,11 +194,16 @@
         <option value="$PROJECT_DIR$/target/classes/log4j2.xml" />
         <option value="$PROJECT_DIR$/log4j.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/configuration/configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/configuration/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/configuration/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/configuration/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java" />
       </list>
     </option>
   </component>
@@ -164,13 +213,14 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="460" />
-    <option name="y" value="100" />
-    <option name="width" value="930" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="8" />
+    <option name="width" value="1782" />
     <option name="height" value="1090" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -304,7 +354,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -318,6 +368,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\musta\OneDrive\Bureau\open classrooms\ProjetP3\MastermindV1\src\main\resources" />
+      <recent name="C:\Users\musta\OneDrive\Bureau\open classrooms\ProjetP3\MastermindV1\src\main\java\configuration" />
+      <recent name="C:\Users\musta\OneDrive\Bureau\open classrooms\ProjetP3\MastermindV1" />
+      <recent name="C:\Users\musta\OneDrive\Bureau\open classrooms\ProjetP3\MastermindV1\src" />
+      <recent name="C:\Users\musta\OneDrive\Bureau\open classrooms\ProjetP3\MastermindV1\src\main\java\com\ocr\mustapha\configuration" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -333,6 +387,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
+    <configuration name="App1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="configuration.App1" />
+      <module name="MastermindV1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="configuration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Challenger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ocr.mustapha.Challenger" />
       <module name="MastermindV1" />
@@ -346,12 +413,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Defender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ocr.mustapha.Defender" />
+    <configuration name="Configuration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="configuration.Configuration" />
       <module name="MastermindV1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ocr.mustapha.*" />
+          <option name="PATTERN" value="configuration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,33 +449,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="challenger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ocr.mustapha.challenger" />
-      <module name="MastermindV1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ocr.mustapha.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Defender" />
       <item itemvalue="Application.Duel" />
-      <item itemvalue="Application.challenger" />
       <item itemvalue="Application.Challenger" />
+      <item itemvalue="Application.App1" />
+      <item itemvalue="Application.Configuration" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Configuration" />
+        <item itemvalue="Application.App1" />
         <item itemvalue="Application.Duel" />
         <item itemvalue="Application.Challenger" />
-        <item itemvalue="Application.Defender" />
-        <item itemvalue="Application.challenger" />
       </list>
     </recent_temporary>
   </component>
@@ -434,7 +488,7 @@
       <workItem from="1562780776833" duration="3473000" />
       <workItem from="1562850474191" duration="169000" />
       <workItem from="1562852485306" duration="695000" />
-      <workItem from="1563101690654" duration="7477000" />
+      <workItem from="1563101690654" duration="24656000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.0 Du Mastermind Project 3 de la formation J2EE de Openclassrooms">
       <created>1562781895524</created>
@@ -464,35 +518,58 @@
       <option name="project" value="LOCAL" />
       <updated>1563103427513</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="LOGGER.info has add in moment for screen the info">
+      <created>1563111557986</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563111557986</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add LOGGER.info when the user exit the game">
+      <created>1563111846204</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563111846204</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58290000" />
+    <option name="totallyTimeSpent" value="75469000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1475" height="878" extended-state="6" />
+    <frame x="7" y="0" width="1425" height="872" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4877345" visible="true" weight="0.021201413" />
-      <window_info id="Structure" order="1" sideWeight="0.5122655" side_tool="true" weight="0.23408769" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4864341" visible="true" weight="0.18681319" />
+      <window_info id="Structure" order="1" sideWeight="0.5135659" side_tool="true" visible="true" weight="0.18681319" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.5086042" side_tool="true" weight="0.23055163" />
+      <window_info id="Favorites" order="5" sideWeight="0.51320755" side_tool="true" weight="0.19787987" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49787837" weight="0.34024897" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.4975265" weight="0.34024897" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4992928" weight="0.32780084" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5067138" side_tool="true" visible="true" weight="0.2669433" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.51098096" side_tool="true" weight="0.27930537" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49328622" visible="true" weight="0.2669433" />
+      <window_info anchor="bottom" id="Find" order="7" weight="0.34442836" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.48901904" visible="true" weight="0.28033474" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4968198" weight="0.24481328" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49399292" weight="0.22175732" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32880846" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32900432" />
@@ -507,25 +584,25 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4877345" visible="true" weight="0.17667845" />
-      <window_info id="Structure" order="1" sideWeight="0.5122655" side_tool="true" weight="0.23408769" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48679245" visible="true" weight="0.043923866" />
+      <window_info id="Structure" order="1" sideWeight="0.51320755" side_tool="true" weight="0.19787987" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.5086042" side_tool="true" weight="0.23055163" />
+      <window_info id="Favorites" order="5" sideWeight="0.51320755" side_tool="true" weight="0.19787987" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49787837" weight="0.34054834" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4992928" weight="0.32756132" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.4975265" weight="0.34024897" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4992928" weight="0.32780084" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50388694" side_tool="true" visible="true" weight="0.39695713" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.51098096" side_tool="true" visible="true" weight="0.27930537" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49611306" visible="true" weight="0.39695713" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.48901904" visible="true" weight="0.27930537" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4992928" weight="0.24531025" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49399292" weight="0.24481328" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Thumbnails" order="13" weight="0.32880846" />
       <window_info anchor="bottom" id="Inspection Results" order="14" weight="0.32900432" />
@@ -588,7 +665,9 @@
     <MESSAGE value="Change  var chance  in &quot;if&quot; for resolve mistake chance counter (-1)" />
     <MESSAGE value="Change  chance conditions in &quot;if&quot; for resolve mistake chance counter (-1)" />
     <MESSAGE value="Change  chance conditions in &quot;if&quot; for resolve mistake chance counter (-1) in Defender mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change  chance conditions in &quot;if&quot; for resolve mistake chance counter (-1) in Defender mode" />
+    <MESSAGE value="LOGGER.info has add in moment for screen the info" />
+    <MESSAGE value="add LOGGER.info when the user exit the game" />
+    <option name="LAST_COMMIT_MESSAGE" value="add LOGGER.info when the user exit the game" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -662,13 +741,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.6.1/log4j-core-2.6.1.jar!/Log4j-config.xsd">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-259">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -679,30 +751,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/java/io/annotations.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/ResourceBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="853" column="39" selection-start-line="853" selection-start-column="39" selection-end-line="853" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/PropertyResourceBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="175" column="64" lean-forward="true" selection-start-line="175" selection-start-column="64" selection-end-line="175" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/configuration/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="278">
+          <caret line="22" column="8" selection-start-line="21" selection-start-column="33" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -711,8 +814,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+        <state relative-caret-position="665">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="53" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/StringLatin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="692" column="32" selection-start-line="692" selection-start-column="32" selection-end-line="692" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="106" column="68" lean-forward="true" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

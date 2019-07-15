@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
  */
 public class Main {
     /**
-     *Methode permet la gestion de log.
+     * methode permet la gestion de log.
      */
 
     public static final Logger LOGGER = LogManager.getLogger();
