@@ -19,7 +19,7 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        LOGGER.info("*Hello !*");
+        LOGGER.info(" Hello !");
         Mode startMode = new Mode();  // lancement du menu principal avec tout les modes revoi vers class Mode
         startMode.runMode();
     }

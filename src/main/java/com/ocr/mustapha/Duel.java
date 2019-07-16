@@ -1,62 +1,37 @@
 package com.ocr.mustapha;
-import java.util.Random;
+import configuration.Configuration;
 import java.util.Scanner;
 import static com.ocr.mustapha.Main.LOGGER;
+import static com.ocr.mustapha.Methode.generateRandomIntIntRange;
+import static com.ocr.mustapha.Methode.getAlphaNumericString;
 
 public class Duel {
-    /**
-     *
-     * @param min
-     * @param max
-     * @return
-     */
-        public static int generateRandomIntIntRange(int min, int max) {
-        Random r = new Random();
-        return r.nextInt((max - min) + 1) + min;
-    }
 
-    /**
-     *
-     * @param n
-     * @return
-     */
-    static String getAlphaNumericString(int n)
-    {
 
-        // chose a Character random from this String
-        String AlphaNumericString = "0123456789";
 
-        // create StringBuffer size of AlphaNumericString
-        StringBuilder sb = new StringBuilder(n);
 
-        for (int i = 0; i < n; i++) {
-            // generate a random number between
-            // 0 to AlphaNumericString variable length
-            int index
-                    = (int)(AlphaNumericString.length()
-                    * Math.random());
-            // add Character one by one in end of sb
-            sb.append(AlphaNumericString
-                    .charAt(index));
-        }
-
-        return sb.toString();
-    }                                                         // la méthode ci dessus permet de générer un string aléatoire de la longeur que l'on veut.
-
-    /**
-     *
-     */
     public static void runDuel() {
 
+        Configuration c = new Configuration();
         LOGGER.info("\n*****Bienvenue dans le mode Duel !*****");
-        int chance = 10;
+        int chance = c.getChance();
         boolean gagner = false;
 
         // ORDINATEUR VS UTILISATEUR VARIABLES ET INIT
         String solution = null, proposition = null;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Veuillez entrer une combinaison de chiffres que l'ordinateur doit trouver!");
+        System.out.println("Veuillez entrer une combinaison de "+c.getlgCombinaison()+" chiffres que l'ordinateur doit trouver!");
+
+
+
         solution = sc.nextLine();
+
+
+
+        while (solution.length() != c.getlgCombinaison()) {
+            System.out.println(" la longeur de la combinaison doit etre de " + c.getlgCombinaison()+ " Veuillez recommencer");
+            solution = sc.nextLine();
+        }
 
 
         System.out.println("la combinaison secrete que l'odinateur doit trouver est:  " + solution);
@@ -76,7 +51,7 @@ public class Duel {
 
 
 
-        while (chance >= 0 && gagner == false) {
+        while (chance >= 0 && gagner == false && solution.length() == c.getlgCombinaison()) {
 
 
             if (proposition.length() != solution.length()) {
@@ -123,8 +98,6 @@ public class Duel {
                 }
                 if (Character.getNumericValue(solution2.charAt(j)) < Character.getNumericValue(proposition2.charAt(j))) {
                     System.out.print("-");
-
-
                 }
             }
 

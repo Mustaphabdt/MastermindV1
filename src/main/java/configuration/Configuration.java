@@ -1,5 +1,4 @@
 package configuration;
-
 import java.io.InputStream;
 import java.util.PropertyResourceBundle;
 
@@ -23,7 +22,7 @@ public class Configuration {
         String chance = bundle.getString("chance");
         return Integer.parseInt(chance);
     }
-    public int getlgCombinaison(){
+    public  int getlgCombinaison(){
         String lgCombinaison = bundle.getString("lgCombinaison");
         return Integer.parseInt(lgCombinaison);
     }
