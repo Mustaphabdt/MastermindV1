@@ -5,10 +5,8 @@ import static com.ocr.mustapha.Main.LOGGER;
 import static com.ocr.mustapha.Methode.generateRandomIntIntRange;
 import static com.ocr.mustapha.Methode.getAlphaNumericString;
 
+
 public class Duel {
-
-
-
 
     public static void runDuel() {
 
@@ -42,37 +40,36 @@ public class Duel {
         String solution2 = null, proposition2 = null;
 
         System.out.println("Ordianteur entrez une combinaison de chiffres que l'utilisateur doit trouver !");
+
         solution2 = getAlphaNumericString(solution.length());
+
         System.out.println("la combinaison secrete de l'ordianteur est : " + solution2);
-
-
         System.out.println("Vous avez " + chance + " chances  pour trouver la combinaison de " + solution2.length() + " chiffres que l'ordianteur a générez c'est à vous !");
 
 
-
-
-        while (chance >= 0 && gagner == false && solution.length() == c.getlgCombinaison()) {
+        while (chance >= 0 && gagner == false) {
 
 
             if (proposition.length() != solution.length()) {
+
                 System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution veuillez recommancer");
                 // Si Longueur  de la solution n'est pas respecter
             }
             String prochaineProposition = "";// optionel permet de verifié les proposition de l'ordianateur
             System.out.println(proposition);
             for (int i = 0; i < solution.length(); i++) {
-                if (Character.getNumericValue(solution.charAt(i)) == Character.getNumericValue(proposition.charAt(i))) {// recupère la valeur charAt(i)
-                    // string en in correspondant a la valeur du tableau ASCII getNumericValue permet de le convertir dans le tableau  ASCII
+                // recupère la valeur charAt(i)
+                // string en in correspondant a la valeur du tableau ASCII getNumericValue permet de le convertir dans le tableau  ASCII
+                if (Character.getNumericValue(solution.charAt(i)) == Character.getNumericValue(proposition.charAt(i))) {
                     System.out.print("=");
                     prochaineProposition = prochaineProposition + Character.getNumericValue(proposition.charAt(i));
-
                 }
                 if (Character.getNumericValue(solution.charAt(i)) > Character.getNumericValue(proposition.charAt(i))) {
                     System.out.print("+");
-                    //System.out.print(Character.getNumericValue(proposition.charAt(i)));
                     char a = proposition.charAt(i);
                     int j = Character.getNumericValue(a);
-                    prochaineProposition = prochaineProposition + generateRandomIntIntRange(j + 1, 9);// generation d'un nombre aléatoire pour la prochaine position qui est superieur non egale a la valeur presedente
+                    prochaineProposition = prochaineProposition + generateRandomIntIntRange(j + 1, 9);
+                    // generation d'un nombre aléatoire pour la prochaine position qui est superieur non egale a la valeur presedente
 
                 }
                 if (Character.getNumericValue(solution.charAt(i)) < Character.getNumericValue(proposition.charAt(i))) {
@@ -87,7 +84,8 @@ public class Duel {
             Scanner sc2 = new Scanner(System.in);
             proposition2 = sc2.nextLine();  // proposition est défini par l'utilisateur .
 
-            System.out.println("Faites une proposition il vous reste " + chance + " chances");  //
+            System.out.println("Faites une proposition il vous reste " + chance + " chances");
+
             for (int j = 0; j < solution2.length(); j++) {
 
                 if (Character.getNumericValue(solution2.charAt(j)) == Character.getNumericValue(proposition2.charAt(j))) {// recupère la valeur charAt(i) string en int correspondant a la valeur du tableau ASCII getNumericValue permet de le convertir dans le tableau  ASCII

@@ -8,13 +8,11 @@ import static com.ocr.mustapha.Main.LOGGER;
 public class Mode {
 
     /**
-     *  @Method lancé par le Main permettant de acccéder au menu principale de l'application
+     * @Method lancé par le Main permettant de acccéder au menu principale de l'application
      */
-    public static void runMode()
+    public static void runMode() {
 
-    {
-
-        int exit = 0 ;
+        int exit = 0;
 
         do {
 
@@ -29,23 +27,22 @@ public class Mode {
             do {
 
 
-                try{
+                try {
 
                     choice = sc.nextInt();
 
-                }
-                catch (Exception e ) {
+                } catch (Exception e) {
                     System.out.println("Vous devez entrez un entier valide");
                     sc.nextLine();
                 }
 
-                if (choice < 1 || choice > 3 ) {
+                if (choice < 1 || choice > 3) {
 
                     System.out.println(" Choix incorrect , veuillez recommencer ! ");
                 }
-            } while (choice < 1 || choice > 3 );
+            } while (choice < 1 || choice > 3);
             switch (choice) {
-                case 1 :
+                case 1:
                     Defender startDefender = new Defender();
                     Defender.runDefender();
                     break;
@@ -61,7 +58,7 @@ public class Mode {
             System.out.println("envie de rejouer ?");
             System.out.println("0- Oui , 1 - Non  ");
             exit = sc.nextInt();
-            if(exit == 1 ){
+            if (exit == 1) {
                 LOGGER.info("Goodbye !");
             }
         } while (exit != 1);

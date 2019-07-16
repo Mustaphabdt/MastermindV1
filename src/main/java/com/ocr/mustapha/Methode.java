@@ -18,7 +18,7 @@ public class Methode {
      *
      * @param n
      * @return
-     */
+     */// la méthode ci dessous permet de générer un string aléatoire de la longeur que l'on veut variable a generer avec config.properties
     public static String getAlphaNumericString(int n)
     {
 
@@ -43,7 +43,7 @@ public class Methode {
         }
 
         return sb.toString();
-    }// la méthode ci dessus permet de générer un string aléatoire de la longeur que l'on veut variable a generer avec config.properties
+    }
 
 
 

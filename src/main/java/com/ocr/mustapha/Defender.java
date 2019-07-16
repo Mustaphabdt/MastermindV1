@@ -20,23 +20,19 @@ public class Defender {
         System.out.println("Attaquant : Veuillez entrer une combinaison de chiffres !");
 
 
+        solution = sc.nextLine();
 
-
+        //condition permettant de savoir si un la longeur de solution est la meme que celle de la proposition
+        while (solution.length() != c.getlgCombinaison()) {
+            System.out.println(" la longeur de la combinaison doit etre de " + c.getlgCombinaison() + "Veuillez recommencer");
             solution = sc.nextLine();
-
-
-
-            while (solution.length() != c.getlgCombinaison()) {
-                System.out.println(" la longeur de la combinaison doit etre de " + c.getlgCombinaison()+ "Veuillez recommencer");
-                solution = sc.nextLine();
-            }
-
-
+        }
 
         System.out.println("la combinaison secrete : " + solution);
         System.out.println(" Défenseur: Vous avez  " + chance + "chances  pour trouver la combinaison de " + solution.length() + " chiffres c'est à vous !");
 
         proposition = getAlphaNumericString(solution.length());
+
         // proposition est défini par l'ordinateur
         // System.out.println(proposition);
 
@@ -44,64 +40,67 @@ public class Defender {
         while (chance != 0 && gagner == false) {
 
 
+            chance--;  // a chaque tour de boucle la valeur chance est décrementé
 
-                chance--;  // a chaque tour de boucle la valeur chance est décrementé
-
-                System.out.println("l'ordianteur fait une proposition il lui reste " + chance + " chance");  //
+            System.out.println("l'ordianteur fait une proposition il lui reste " + chance + " chance");  //
 
             /*if (proposition.length() != solution.length()) {
                 System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution veuillez recommancer");
                 // Si Longueur  de la solution n'est pas respecter
             }
             */
-                String prochaineProposition = "";// optionel permet de verifié les proposition de l'ordianateur
-                System.out.println(proposition);//optionel permet de verifié les proposition de l'ordianateur
+            String prochaineProposition = "";// optionel permet de verifié les proposition de l'ordianateur
+            System.out.println(proposition);//optionel permet de verifié les proposition de l'ordianateur
 
-                for (int i = 0; i < solution.length(); i++) {
+            for (int i = 0; i < solution.length(); i++) {
+                //si le char est le meme
 
-                    if (Character.getNumericValue(solution.charAt(i)) == Character.getNumericValue(proposition.charAt(i))) {// recupère la valeur charAt(i)
-                        // string en in correspondant a la valeur du tableau ASCII getNumericValue permet de le convertir dans le tableau  ASCII
-                        System.out.print("=");
-                        prochaineProposition = prochaineProposition + Character.getNumericValue(proposition.charAt(i));
+                if (Character.getNumericValue(solution.charAt(i)) == Character.getNumericValue(proposition.charAt(i))) {// recupère la valeur charAt(i)
+                    // string en in correspondant a la valeur du tableau ASCII getNumericValue permet de le convertir dans le tableau  ASCII
+                    System.out.print("=");
+                    prochaineProposition = prochaineProposition + Character.getNumericValue(proposition.charAt(i));
 
-                    }
-                    if (Character.getNumericValue(solution.charAt(i)) > Character.getNumericValue(proposition.charAt(i))) {
-
-                        System.out.print("+");
-                        //System.out.print(Character.getNumericValue(proposition.charAt(i)));
-                        char a = proposition.charAt(i);
-                        int j = Character.getNumericValue(a);
-                        prochaineProposition = prochaineProposition + generateRandomIntIntRange(j + 1, 9);// generation d'un nombre aléatoire pour la prochaine position qui est superieur non egale a la valeur presedente
-
-                    }
-                    if (Character.getNumericValue(solution.charAt(i)) < Character.getNumericValue(proposition.charAt(i))) {
-
-                        System.out.print("-");
-                        char a = proposition.charAt(i);
-                        int j = Character.getNumericValue(a);
-                        prochaineProposition = prochaineProposition + generateRandomIntIntRange(0, j - 1); // generation d'un nombre aléatoire pour la prochaine position qui est inferieur non egale a la valeur presedente
-
-                    }
                 }
+                //si le char est superieur
+                if (Character.getNumericValue(solution.charAt(i)) > Character.getNumericValue(proposition.charAt(i))) {
 
-                System.out.println();
+                    System.out.print("+");
+                    char a = proposition.charAt(i);
+                    int j = Character.getNumericValue(a);
+                    prochaineProposition = prochaineProposition + generateRandomIntIntRange(j + 1, 9);// generation d'un nombre aléatoire pour la prochaine position qui est superieur non egale a la valeur presedente
 
-                if (proposition.equals(solution)) {
-
-                    gagner = true;
-                    System.out.println(" l'ordianteur a trouvé la solution en " + (10 - chance) + " essais ");
-
-                } else {
-
-                    proposition = prochaineProposition;
-
-                } // si ma proposition est bonne ne variable gaganer change de valeur et arrete la boucle + affichage de fin
-
-                if (chance == 0) {
-                    System.out.println("l'ordianteur a perdu");
                 }
-                // si plus de chances affiche le message vous n'avez plus de chances
+                if (Character.getNumericValue(solution.charAt(i)) < Character.getNumericValue(proposition.charAt(i))) {
+
+                    System.out.print("-");
+                    char a = proposition.charAt(i);
+                    int j = Character.getNumericValue(a);
+                    prochaineProposition = prochaineProposition + generateRandomIntIntRange(0, j - 1); // generation d'un nombre aléatoire pour la prochaine position qui est inferieur non egale a la valeur presedente
+
+                }
             }
+
+
+            System.out.println();
+
+            // si ma proposition est bonne la variable gagner change de valeur et arrete la boucle + affichage de fin
+            if (proposition.equals(solution)) {
+
+                gagner = true;
+                System.out.println(" l'ordianteur a trouvé la solution en " + (10 - chance) + " essais ");
+
+            } else {
+
+                proposition = prochaineProposition;
+
+            }
+
+            // si plus de chances affiche le message le "joueur" n'a plus de chances
+            if (chance == 0) {
+                System.out.println("l'ordianteur a perdu");
+            }
+
+        }
 
 
     }
