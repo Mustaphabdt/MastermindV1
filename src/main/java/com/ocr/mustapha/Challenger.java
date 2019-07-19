@@ -19,8 +19,12 @@ public class Challenger extends Methode {
         System.out.println("Attaquant : Veuillez entrer une combinaison de chiffres !");
 
         solution = getAlphaNumericString(c.getlgCombinaison());
+        if (c.getDevelloper()) {
 
-        System.out.println("la combinaison secrete : " + solution);
+            System.out.println("la combinaison secrete : " + solution);//optionel permet de verifié les proposition de l'ordianateur
+        } else {
+        }
+
         System.out.println("Défenseur: Vous avez  " + chance + " chances  pour trouver la combinaison de " + solution.length() + " chiffres c'est à vous !");
 
         Scanner sc = new Scanner(System.in);
@@ -34,8 +38,8 @@ public class Challenger extends Methode {
             try {
                 proposition = sc.nextLine();  // proposition est défini par l'utilisateur .
                 if (proposition.length() != solution.length()) {
-                    System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution veuillez recommencer");
-                    // Si Longueur  de la solution n'est pas respecter
+                    System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution ");
+                }// Si Longueur  de la solution n'est pas respecter
                     for (int i = 0; i < solution.length(); i++) {
                         if (Character.getNumericValue(solution.charAt(i)) == Character.getNumericValue(proposition.charAt(i))) {// recupère la valeur charAt(i) string en int correspondant a la valeur du tableau ASCII getNumericValue permet de le convertir dans le tableau  ASCII
                             System.out.print("=");
@@ -46,13 +50,13 @@ public class Challenger extends Methode {
                         if (Character.getNumericValue(solution.charAt(i)) < Character.getNumericValue(proposition.charAt(i))) {
                             System.out.print("-");
                         }
-                    }
-                }
+                    }System.out.println();
+
+
+
             } catch (Exception a) {
-                System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution veuillez recommancer");
                 sc.nextLine();
             }
-            System.out.println();
 
             if (proposition.equals(solution)) {
 

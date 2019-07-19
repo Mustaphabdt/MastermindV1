@@ -30,20 +30,28 @@ public class Duel extends Methode {
             solution = sc.nextLine();
         }
 
+        if (c.getDevelloper()) {
 
-        System.out.println("la combinaison secrete que l'odinateur doit trouver est:  " + solution);
+            System.out.println("la combinaison secrete que l'odinateur doit trouver est:  " + solution);//optionel permet de verifié les proposition de l'ordinateur
+        } else {
+        }
+
 
         System.out.println("Ordinateur Vous avez  " + chance + " chances pour trouver la combinaison de " + solution.length() + " chiffres c'est à vous !");
         proposition = getAlphaNumericString(solution.length());  // proposition est défini par l'ordinateur
         // UTILISATEUR VS ORDINATEUR VARIABLES
         String solution2 = null, proposition2 = null;
 
-        System.out.println("Ordianteur entrez une combinaison de chiffres que l'utilisateur doit trouver !");
+        System.out.println("Ordinateur entrez une combinaison de chiffres que l'utilisateur doit trouver !");
 
         solution2 = getAlphaNumericString(solution.length());
 
-        System.out.println("la combinaison secrete de l'ordianteur est : " + solution2);
-        System.out.println("Vous avez " + chance + " chances  pour trouver la combinaison de " + solution2.length() + " chiffres que l'ordianteur a générez c'est à vous !");
+        if (c.getDevelloper()) {
+            System.out.println("la combinaison secrete de l'ordinateur est : " + solution2);//optionel permet de verifié les proposition de l'ordinateur
+        } else {
+        }
+
+        System.out.println("Vous avez " + chance + " chances  pour trouver la combinaison de " + solution2.length() + " chiffres que l'ordinateur a généré c'est à vous !");
 
 
         while (chance >= 0 && gagner == false) {
@@ -54,7 +62,7 @@ public class Duel extends Methode {
                 System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution veuillez recommancer");
                 // Si Longueur  de la solution n'est pas respecter
             }
-            String prochaineProposition = "";// optionel permet de verifié les proposition de l'ordianateur
+            String prochaineProposition = "";// optionel permet de verifié les proposition de l'ordinateur
             System.out.println(proposition);
             for (int i = 0; i < solution.length(); i++) {
                 // recupère la valeur charAt(i)
@@ -111,14 +119,14 @@ public class Duel extends Methode {
             } // si ma proposition est bonne ne variable gagner change de valeur et arrete la boucle + affichage de fin
 
             if (chance == 0) {
-                System.out.println("Vous n'avez plus de chance!GAME OVER :");
+                System.out.println("Vous n'avez plus de chance");
             }
 
 
 
             if (proposition2.equals(solution2)) {
                 gagner = true;
-                System.out.println(" Vous avez trouvé la solution en " + (10 - chance) + " essais ");
+                System.out.println(" Gagnant :Bravo! Vous avez trouvé la solution en " + (10 - chance) + " essais ");
 
 
             }

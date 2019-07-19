@@ -13,7 +13,6 @@ public class Main {
 
     /**
      *
-     * @param args
      * Methode permet de lancer le jeu pour acceder au menu principal
      */
     public static void main(String[] args) {
