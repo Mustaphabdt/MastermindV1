@@ -2,11 +2,10 @@ package com.ocr.mustapha;
 import configuration.Configuration;
 import java.util.Scanner;
 import static com.ocr.mustapha.Main.LOGGER;
-import static com.ocr.mustapha.Methode.generateRandomIntIntRange;
-import static com.ocr.mustapha.Methode.getAlphaNumericString;
 
 
-public class Duel {
+
+public class Duel extends Methode {
 
     public static void runDuel() {
 
@@ -15,7 +14,7 @@ public class Duel {
         int chance = c.getChance();
         boolean gagner = false;
 
-        // ORDINATEUR VS UTILISATEUR VARIABLES ET INIT
+        // ORDINATEUR VS UTILISATEUSystem.out.println(" la longeur de la combinaison doit etre de " + c.getlgCombinaison() + " Chiffres ! Veuillez recommencer");R VARIABLES ET INIT
         String solution = null, proposition = null;
         Scanner sc = new Scanner(System.in);
         System.out.println("Veuillez entrer une combinaison de "+c.getlgCombinaison()+" chiffres que l'ordinateur doit trouver!");
@@ -27,7 +26,7 @@ public class Duel {
 
 
         while (solution.length() != c.getlgCombinaison()) {
-            System.out.println(" la longeur de la combinaison doit etre de " + c.getlgCombinaison()+ " Veuillez recommencer");
+            System.out.println(" la longeur de la combinaison doit etre de " + c.getlgCombinaison() + " Chiffres ! Veuillez recommencer");
             solution = sc.nextLine();
         }
 

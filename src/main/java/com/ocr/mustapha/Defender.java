@@ -2,11 +2,9 @@ package com.ocr.mustapha;
 import configuration.Configuration;
 import java.util.Scanner;
 import static com.ocr.mustapha.Main.LOGGER;
-import static com.ocr.mustapha.Methode.generateRandomIntIntRange;
-import static com.ocr.mustapha.Methode.getAlphaNumericString;
 
 
-public class Defender {
+public class Defender extends Methode {
 
 
     public static void runDefender() {
@@ -24,7 +22,7 @@ public class Defender {
 
         //condition permettant de savoir si un la longeur de solution est la meme que celle de la proposition
         while (solution.length() != c.getlgCombinaison()) {
-            System.out.println(" la longeur de la combinaison doit etre de " + c.getlgCombinaison() + "Veuillez recommencer");
+            System.out.println(" la longeur de la combinaison doit etre de " + c.getlgCombinaison() + " Chiffres ! Veuillez recommencer");
             solution = sc.nextLine();
         }
 
@@ -34,7 +32,7 @@ public class Defender {
         proposition = getAlphaNumericString(solution.length());
 
         // proposition est défini par l'ordinateur
-        // System.out.println(proposition);
+        //  System.out.println(proposition);
 
 
         while (chance != 0 && gagner == false) {

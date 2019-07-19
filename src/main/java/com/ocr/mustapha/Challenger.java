@@ -2,10 +2,9 @@ package com.ocr.mustapha;
 import configuration.Configuration;
 import java.util.Scanner;
 import static com.ocr.mustapha.Main.LOGGER;
-import static com.ocr.mustapha.Methode.getAlphaNumericString;
 
 
-public class Challenger {
+public class Challenger extends Methode {
 
 
     public void runChallenger() {
