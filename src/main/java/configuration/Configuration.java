@@ -27,4 +27,8 @@ public class Configuration {
         String lgCombinaison = bundle.getString("lgCombinaison");
         return Integer.parseInt(lgCombinaison);
     }
+    public boolean getDevelloper(){
+        String Develloper = bundle.getString("Develloper");
+        return Boolean.parseBoolean(Develloper);
+    }
 }

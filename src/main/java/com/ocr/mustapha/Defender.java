@@ -25,8 +25,12 @@ public class Defender extends Methode {
             System.out.println(" la longeur de la combinaison doit etre de " + c.getlgCombinaison() + " Chiffres ! Veuillez recommencer");
             solution = sc.nextLine();
         }
+        //Afficher solution si mode developpeur actif
+        if (c.getDevelloper()) {
+            System.out.println("la combinaison secrete : " + solution);
+        } else {
+        }
 
-        System.out.println("la combinaison secrete : " + solution);
         System.out.println(" Défenseur: Vous avez  " + chance + "chances  pour trouver la combinaison de " + solution.length() + " chiffres c'est à vous !");
 
         proposition = getAlphaNumericString(solution.length());
@@ -41,14 +45,14 @@ public class Defender extends Methode {
             chance--;  // a chaque tour de boucle la valeur chance est décrementé
 
             System.out.println("l'ordianteur fait une proposition il lui reste " + chance + " chance");  //
-
-            /*if (proposition.length() != solution.length()) {
-                System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution veuillez recommancer");
-                // Si Longueur  de la solution n'est pas respecter
-            }
-            */
             String prochaineProposition = "";// optionel permet de verifié les proposition de l'ordianateur
-            System.out.println(proposition);//optionel permet de verifié les proposition de l'ordianateur
+
+            if (c.getDevelloper()) {
+
+                System.out.println(proposition);//optionel permet de verifié les proposition de l'ordianateur
+            } else {
+            }
+
 
             for (int i = 0; i < solution.length(); i++) {
                 //si le char est le meme

@@ -63,6 +63,5 @@ public class Mode {
             }
         } while (exit != 1);
 
-
     }
 }
