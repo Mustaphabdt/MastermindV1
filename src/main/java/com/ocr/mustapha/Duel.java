@@ -30,7 +30,7 @@ public class Duel extends Methode {
             solution = sc.nextLine();
         }
 
-        if (c.getDevelloper()) {
+        if (c.getDevelopper()) {
 
             System.out.println("la combinaison secrete que l'odinateur doit trouver est:  " + solution);//optionel permet de verifié les proposition de l'ordinateur
         } else {
@@ -46,7 +46,7 @@ public class Duel extends Methode {
 
         solution2 = getAlphaNumericString(solution.length());
 
-        if (c.getDevelloper()) {
+        if (c.getDevelopper()) {
             System.out.println("la combinaison secrete de l'ordinateur est : " + solution2);//optionel permet de verifié les proposition de l'ordinateur
         } else {
         }

@@ -26,7 +26,7 @@ public class Defender extends Methode {
             solution = sc.nextLine();
         }
         //Afficher solution si mode developpeur actif
-        if (c.getDevelloper()) {
+        if (c.getDevelopper()) {
             System.out.println("la combinaison secrete : " + solution);
         } else {
         }
@@ -47,7 +47,7 @@ public class Defender extends Methode {
             System.out.println("l'ordianteur fait une proposition il lui reste " + chance + " chance");  //
             String prochaineProposition = "";// optionel permet de verifié les proposition de l'ordianateur
 
-            if (c.getDevelloper()) {
+            if (c.getDevelopper()) {
 
                 System.out.println(proposition);//optionel permet de verifié les proposition de l'ordianateur
             } else {

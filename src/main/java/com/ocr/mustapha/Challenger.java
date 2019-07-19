@@ -19,7 +19,7 @@ public class Challenger extends Methode {
         System.out.println("Attaquant : Veuillez entrer une combinaison de chiffres !");
 
         solution = getAlphaNumericString(c.getlgCombinaison());
-        if (c.getDevelloper()) {
+        if (c.getDevelopper()) {
 
             System.out.println("la combinaison secrete : " + solution);//optionel permet de verifié les proposition de l'ordianateur
         } else {
