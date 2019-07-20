@@ -18,7 +18,7 @@ public class Configuration {
 
         }
     }
-        //Methodes permettant de retouner les deux valeurs configurer dans le fichier config.properties
+    //Methodes permettant de retourner les deux valeurs configurées dans le fichier config.properties
     public int getChance() {
         String chance = bundle.getString("chance");
         return Integer.parseInt(chance);

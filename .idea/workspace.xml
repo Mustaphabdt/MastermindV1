@@ -7,13 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="060216f5-a343-49f7-a696-507bfcc3e936" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/configuration/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/configuration/Configuration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Duel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ocr/mustapha/Duel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/java/io/annotations.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,12 +49,12 @@
     <favorites_list name="MastermindV1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="19">
+              <caret line="1" selection-start-line="1" selection-end-line="11" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -64,12 +62,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/configuration/Configuration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="32" />
+            <state relative-caret-position="247">
+              <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#Configuration#0;class#Configuration#0" />
-                <element signature="method#getChance#0;class#Configuration#0" />
               </folding>
             </state>
           </provider>
@@ -78,8 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="637">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +87,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-574">
+            <state relative-caret-position="190">
               <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -100,10 +97,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="779">
+                <caret line="41" selection-start-line="41" selection-end-line="41" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="851">
-              <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+            <state relative-caret-position="300">
+              <caret line="19" column="82" lean-forward="true" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,9 +121,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="228">
               <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,7 +144,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Methode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="228">
               <caret line="13" column="22" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -138,8 +156,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="494">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,11 +210,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/configuration/Configuration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/configuration/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -247,6 +266,67 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mustapha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 11.0.2 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope">
           <expand>
@@ -319,58 +399,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mustapha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MastermindV1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MastermindV1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -419,16 +447,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="BUILDJAR" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.ocr.mustapha.Main" />
-      <module name="MastermindV1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="assembly:single" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ocr.mustapha.Main" />
       <module name="MastermindV1" />
       <extension name="coverage">
@@ -441,15 +461,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.BUILDJAR" />
-      <item itemvalue="Application.Main" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="StructureViewFactory">
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
@@ -485,7 +496,8 @@
       <workItem from="1563481465419" duration="732000" />
       <workItem from="1563482223292" duration="415000" />
       <workItem from="1563527873910" duration="20036000" />
-      <workItem from="1563571135973" duration="263000" />
+      <workItem from="1563571135973" duration="897000" />
+      <workItem from="1563609159213" duration="2430000" />
     </task>
     <task id="LOCAL-00001" summary="Version 1.0 Du Mastermind Project 3 de la formation J2EE de Openclassrooms">
       <created>1562781895524</created>
@@ -571,11 +583,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563570669061</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Change variable name">
+      <created>1563571431654</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1563571431654</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118098000" />
+    <option name="totallyTimeSpent" value="121162000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,8 +609,8 @@
     <frame x="-7" y="-7" width="1475" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.54080224" visible="true" weight="0.18374558" />
-      <window_info id="Structure" order="1" sideWeight="0.4591978" side_tool="true" visible="true" weight="0.18374558" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5394191" visible="true" weight="0.28480566" />
+      <window_info id="Structure" order="1" sideWeight="0.46058092" side_tool="true" visible="true" weight="0.28480566" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -714,7 +733,8 @@
     <MESSAGE value="finalise presentation" />
     <MESSAGE value="add variable Developper on config.properties&#10;add Methode GetDevelopper on Configuration.class&#10;add condition Developper on Method Runchallenger" />
     <MESSAGE value="add condition Developper on Method RunDeffender &#10;add condition Developper on Method RunDuel" />
-    <option name="LAST_COMMIT_MESSAGE" value="add condition Developper on Method RunDeffender &#10;add condition Developper on Method RunDuel" />
+    <MESSAGE value="Change variable name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change variable name" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -971,9 +991,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/META-INF/MANIFEST.MF" />
     <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/java/io/annotations.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Boolean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -988,35 +1005,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/configuration/Configuration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Configuration#0;class#Configuration#0" />
-            <element signature="method#getChance#0;class#Configuration#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="228">
           <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1026,7 +1017,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Methode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="228">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1036,18 +1027,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Mode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="494">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/java/io/annotations.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="82" lean-forward="true" selection-start-line="19" selection-start-column="82" selection-end-line="19" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Challenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="637">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1056,7 +1067,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Defender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-574">
+        <state relative-caret-position="190">
           <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1064,13 +1075,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ocr/mustapha/Duel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/configuration/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#Configuration#0;class#Configuration#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="779">
+            <caret line="41" selection-start-line="41" selection-end-line="41" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
