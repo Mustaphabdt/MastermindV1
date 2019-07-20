@@ -7,7 +7,7 @@ Version java : 11.0.2
 
 Modifier les paramètres de jeu :
 
-Si vous souhaitez modifier les paramètres de jeu, ouvrez le fichier "ressources/config.properties".
+Si vous souhaitez modifier les paramètres de jeu, ouvrez le fichier "MastermindV1/src/main/resources/config.properties".
 Vous verrez alors s'afficher :
 
 Configuration des valeurs de base :
@@ -26,6 +26,7 @@ Developper = false
 
 
 Pour modifier une valeur, vous devrez modifier le chiffre suivant la valeur que vous voulez modifier.
+
 Exemples :
 
 -Une partie ayant plus ou moins de tentatives maximales il faudrait changer la valeur de chance.
