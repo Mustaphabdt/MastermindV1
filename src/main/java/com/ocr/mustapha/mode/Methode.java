@@ -1,10 +1,10 @@
-package com.ocr.mustapha;
-import configuration.Configuration;
+package com.ocr.mustapha.mode;
+import com.ocr.mustapha.configuration.Configuration;
 import java.util.Random;
 
 public class Methode {
     /**
-     *
+     *this method generate integer ramdom
      * @param min
      * @param max
      * @return
@@ -16,8 +16,8 @@ public class Methode {
     }
     /**
      *
-     * @param n
-     * @return
+     * @param n is the length parameter
+     * @return String builder gernerate
      */// la méthode ci dessous permet de générer un string aléatoire de la longeur que l'on veut variable a generer avec config.properties
     public static String getAlphaNumericString(int n)
     {

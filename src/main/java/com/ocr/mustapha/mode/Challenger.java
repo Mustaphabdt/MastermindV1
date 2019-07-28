@@ -1,5 +1,5 @@
-package com.ocr.mustapha;
-import configuration.Configuration;
+package com.ocr.mustapha.mode;
+import com.ocr.mustapha.configuration.Configuration;
 import java.util.Scanner;
 import static com.ocr.mustapha.Main.LOGGER;
 
@@ -16,7 +16,7 @@ public class Challenger extends Methode {
         String solution = "", proposition = "";
         boolean gagner = false;
 
-        System.out.println("Attaquant : Veuillez entrer une combinaison de chiffres !");
+
 
         solution = getAlphaNumericString(c.getlgCombinaison());
         if (c.getDevelopper()) {

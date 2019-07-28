@@ -1,5 +1,6 @@
-package com.ocr.mustapha;
+package com.ocr.mustapha.mode;
 import java.util.Scanner;
+
 import static com.ocr.mustapha.Main.LOGGER;
 
 /**

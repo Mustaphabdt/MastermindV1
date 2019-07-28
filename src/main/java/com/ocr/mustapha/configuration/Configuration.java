@@ -1,4 +1,4 @@
-package configuration;
+package com.ocr.mustapha.configuration;
 import java.io.InputStream;
 import java.util.PropertyResourceBundle;
 /**
