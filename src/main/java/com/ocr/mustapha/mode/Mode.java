@@ -18,9 +18,9 @@ public class Mode {
         do {
 
             LOGGER.info("\nMenu principal:");
-            System.out.println("1- Defender");
-            System.out.println("2- Challenger");
-            System.out.println("3- Duel ");
+            System.out.println("1- Mode du défenseur");
+            System.out.println("2- Mode du challengeur");
+            System.out.println("3- Mode du duel ");
             Scanner sc = new Scanner(System.in);
 
             int choice = 0;

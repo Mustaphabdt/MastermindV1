@@ -47,11 +47,9 @@ public class Defender extends Methode {
             System.out.println("l'ordianteur fait une proposition il lui reste " + chance + " chance");  //
             String prochaineProposition = "";// optionel permet de verifié les proposition de l'ordianateur
 
-            if (c.getDevelopper()) {
 
-                System.out.println(proposition);//optionel permet de verifié les proposition de l'ordianateur
-            } else {
-            }
+            System.out.println(proposition);//optionel permet de verifié les proposition de l'ordianateur
+
 
 
             for (int i = 0; i < solution.length(); i++) {
