@@ -36,10 +36,16 @@ public class Challenger extends Methode {
             System.out.println("Faites une proposition il vous reste " + chance + " chances");  //
 
             try {
-                proposition = sc.nextLine();  // proposition est défini par l'utilisateur .
-                if (proposition.length() != solution.length()) {
-                    System.out.println(" Votre proposition ne comporte pas le même nombre que dans la solution ");
-                }// Si Longueur  de la solution n'est pas respecter
+                boolean contientChiffre = true;
+                do {
+                    proposition = sc.nextLine();
+                    if (proposition.length() != c.getlgCombinaison()) {
+                        System.out.println(" Votre solution doit comporter "+c.getlgCombinaison()+" Chiffres");
+                        proposition= sc.nextLine();
+                    }else { }
+
+                }while (!verificationCombinaison(contientChiffre,proposition));
+
                     for (int i = 0; i < solution.length(); i++) {
                         if (Character.getNumericValue(solution.charAt(i)) == Character.getNumericValue(proposition.charAt(i))) {// recupère la valeur charAt(i) string en int correspondant a la valeur du tableau ASCII getNumericValue permet de le convertir dans le tableau  ASCII
                             System.out.print("=");

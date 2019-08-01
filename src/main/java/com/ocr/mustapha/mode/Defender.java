@@ -7,24 +7,37 @@ import static com.ocr.mustapha.Main.LOGGER;
 public class Defender extends Methode {
 
 
+
+
     public static void runDefender() {
 
         Configuration c = new Configuration();
         int chance = c.getChance();
         boolean gagner = false;
-        String solution = "", proposition = "";
+        String solution = "";
+        String proposition = "";
+
         Scanner sc = new Scanner(System.in);
-        LOGGER.info("\n*****Bienvenue dans le mode Defender !*****");
-        System.out.println("Attaquant : Veuillez entrer une combinaison de chiffres !");
 
 
-        solution = sc.nextLine();
+        LOGGER.info("\n*****Bienvenue dans le mode du défenseur !*****");
+        System.out.println("Vous devez entrer une combinaison de " + c.getlgCombinaison() + " chiffres que l'ordinateur doit trouver !");
 
-        //condition permettant de savoir si un la longeur de solution est la meme que celle de la proposition
-        while (solution.length() != c.getlgCombinaison()) {
-            System.out.println(" la longeur de la combinaison doit etre de " + c.getlgCombinaison() + " Chiffres ! Veuillez recommencer");
+        boolean contientChiffre = true;
+        do {
             solution = sc.nextLine();
-        }
+            if (solution.length() != c.getlgCombinaison()) {
+                System.out.println(" Votre solution doit comporter "+c.getlgCombinaison()+" Chiffres");
+                solution= sc.nextLine();
+            }else { }
+
+        }while (!verificationCombinaison(contientChiffre,solution));
+
+
+        // Si Longueur  de la solution n'est pas respecter
+
+
+
         //Afficher solution si mode developpeur actif
         if (c.getDevelopper()) {
             System.out.println("la combinaison secrete : " + solution);
@@ -49,7 +62,6 @@ public class Defender extends Methode {
 
 
             System.out.println(proposition);//optionel permet de verifié les proposition de l'ordianateur
-
 
 
             for (int i = 0; i < solution.length(); i++) {
@@ -78,7 +90,10 @@ public class Defender extends Methode {
                     prochaineProposition = prochaineProposition + generateRandomIntIntRange(0, j - 1); // generation d'un nombre aléatoire pour la prochaine position qui est inferieur non egale a la valeur presedente
 
                 }
+
+
             }
+
 
 
             System.out.println();
@@ -100,8 +115,8 @@ public class Defender extends Methode {
                 System.out.println("l'ordianteur a perdu");
             }
 
+
         }
-
-
     }
 }
+

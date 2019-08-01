@@ -1,6 +1,7 @@
 package com.ocr.mustapha.configuration;
 import java.io.InputStream;
 import java.util.PropertyResourceBundle;
+
 /**
  *Cette classe premet d'appeler les variables Chance et Combinaison dans le config.properties
  */
@@ -18,12 +19,15 @@ public class Configuration {
 
         }
     }
+
+
+
     //Methodes permettant de retourner les deux valeurs configurées dans le fichier config.properties
     public int getChance() {
         String chance = bundle.getString("chance");
         return Integer.parseInt(chance);
     }
-    public int getlgCombinaison(){
+    public int getlgCombinaison() {
         String lgCombinaison = bundle.getString("lgCombinaison");
         return Integer.parseInt(lgCombinaison);
     }
@@ -31,4 +35,5 @@ public class Configuration {
         String Developper = bundle.getString("Developper");
         return Boolean.parseBoolean(Developper);
     }
+
 }

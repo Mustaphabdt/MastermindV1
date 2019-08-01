@@ -41,7 +41,7 @@ public class Mode {
 
                     System.out.println(" Choix incorrect , veuillez recommencer ! ");
                 }
-            } while (choice < 1 || choice > 3);
+                } while (choice < 1 || choice > 3);
             switch (choice) {
                 case 1:
                     Defender startDefender = new Defender();
@@ -58,7 +58,26 @@ public class Mode {
             }
             System.out.println("envie de rejouer ?");
             System.out.println("0- Oui , 1 - Non  ");
-            exit = sc.nextInt();
+            do {
+
+
+                try {
+
+                    exit = sc.nextInt();
+
+                } catch (Exception e) {
+                    System.out.println("Vous devez entrez un entier valide");
+                    sc.nextLine();
+                }
+
+                if (exit < 0 || exit > 1) {
+
+                    System.out.println(" Choix incorrect , veuillez recommencer ! ");
+                    System.out.println("envie de rejouer ?");
+                    System.out.println("0- Oui , 1 - Non  ");
+                }
+            } while (exit < 0 || exit > 1);
+
             if (exit == 1) {
                 LOGGER.info("Goodbye !");
             }

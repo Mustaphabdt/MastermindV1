@@ -21,14 +21,19 @@ public class Duel extends Methode {
 
 
 
-        solution = sc.nextLine();
 
 
 
-        while (solution.length() != c.getlgCombinaison()) {
-            System.out.println(" la longeur de la combinaison doit etre de " + c.getlgCombinaison() + " Chiffres ! Veuillez recommencer");
+
+        boolean contientChiffre = true;
+        do {
             solution = sc.nextLine();
-        }
+            if (solution.length() != c.getlgCombinaison()) {
+                System.out.println(" Votre solution doit comporter "+c.getlgCombinaison()+" Chiffres");
+                solution= sc.nextLine();
+            }else { }
+
+        }while (!verificationCombinaison(contientChiffre,solution));
 
         if (c.getDevelopper()) {
 
@@ -89,8 +94,16 @@ public class Duel extends Methode {
             System.out.println( " *****résultat de l'ordinateur*****");
 
             Scanner sc2 = new Scanner(System.in);
-            proposition2 = sc2.nextLine();  // proposition est défini par l'utilisateur .
 
+
+            do {
+                proposition2 = sc2.nextLine();// proposition est défini par l'utilisateur .
+                if (proposition2.length() != c.getlgCombinaison()) {
+                    System.out.println(" Votre solution doit comporter "+c.getlgCombinaison()+" Chiffres");
+                    proposition2= sc.nextLine();
+                }else { }
+
+            }while (!verificationCombinaison(contientChiffre,proposition2));
             System.out.println("Faites une proposition il vous reste " + chance + " chances");
 
             for (int j = 0; j < solution2.length(); j++) {
