@@ -3,9 +3,16 @@ import com.ocr.mustapha.configuration.Configuration;
 import java.util.Scanner;
 import static com.ocr.mustapha.Main.LOGGER;
 
-
+/**
+ * classe qui permet  le mode de jeu Duel
+ * chacun leur tour l'ordinateur et le joueur chosissent un code secret que lautre doit trouver
+ * ensuite chacun leur tout le joueur et l'odinateur font une proposition jusqu'a trouver la solution de l'autre.
+ */
 
 public class Duel extends Methode {
+    /**
+     * Methode permettant le lancement du mode Duel
+     */
 
     public static void runDuel() {
 
@@ -18,12 +25,6 @@ public class Duel extends Methode {
         String solution = null, proposition = null;
         Scanner sc = new Scanner(System.in);
         System.out.println("Veuillez entrer une combinaison de "+c.getlgCombinaison()+" chiffres que l'ordinateur doit trouver!");
-
-
-
-
-
-
 
         boolean contientChiffre = true;
         do {
@@ -40,7 +41,6 @@ public class Duel extends Methode {
             System.out.println("la combinaison secrete que l'odinateur doit trouver est:  " + solution);//optionel permet de verifié les proposition de l'ordinateur
         } else {
         }
-
 
         System.out.println("Ordinateur Vous avez  " + chance + " chances pour trouver la combinaison de " + solution.length() + " chiffres c'est à vous !");
         proposition = getAlphaNumericString(solution.length());  // proposition est défini par l'ordinateur
@@ -143,10 +143,7 @@ public class Duel extends Methode {
 
 
             }
-            /*if (chance == 0) {
-                System.out.println("GAME OVER!");
-            }
-            */
+
             chance--;  // a chaque tour de boucle la valeur chance est décrementé
         }
     }

@@ -16,10 +16,10 @@ public class Methode {
 
     }
     /**
-     *
+     *la méthode ci dessous permet de générer un string aléatoire de la longeur que l'on veut variable a generer avec config.properties
      * @param n is the length parameter
      * @return String builder gernerate
-     */// la méthode ci dessous permet de générer un string aléatoire de la longeur que l'on veut variable a generer avec config.properties
+     */
     public static String getAlphaNumericString(int n) {
 
         // chose a Character random from this String
@@ -45,7 +45,7 @@ public class Methode {
         return sb.toString();
     }
 
-        /** Savoir si la saisie correspond bien à un nombre
+        /** La methode permet de savoir si la saisie correspond bien à un nombre
          */
         public static boolean verificationCombinaison (boolean vf, String nb) {
         int i;

@@ -3,7 +3,9 @@ import com.ocr.mustapha.mode.Mode;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-
+/**
+ * Classe princilape du programme
+ */
 
 public class Main {
     /** Appel de la class Logger

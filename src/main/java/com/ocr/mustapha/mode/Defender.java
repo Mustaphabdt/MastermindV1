@@ -3,12 +3,16 @@ import com.ocr.mustapha.configuration.Configuration;
 import java.util.Scanner;
 import static com.ocr.mustapha.Main.LOGGER;
 
+/**
+ * classe qui permet  le mode de jeu Defendeur
+ */
 
 public class Defender extends Methode {
 
 
-
-
+    /**
+     * run defender est une methode de la classe Defendeur qui permet le lancement du jeu.
+     */
     public static void runDefender() {
 
         Configuration c = new Configuration();

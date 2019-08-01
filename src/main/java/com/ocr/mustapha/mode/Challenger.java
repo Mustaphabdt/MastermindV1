@@ -3,10 +3,15 @@ import com.ocr.mustapha.configuration.Configuration;
 import java.util.Scanner;
 import static com.ocr.mustapha.Main.LOGGER;
 
-
+/**
+ * classe qui permet  le mode de jeu Challengeur
+ * l'odinateur fais une proposition et le joueur doit la trouver
+ */
 public class Challenger extends Methode {
 
-
+    /**
+     * Methode qui permet le lancement du mode Challengeur
+     */
     public void runChallenger() {
         LOGGER.info("\n*****Bienvenue dans le mode Challenger !*****");
 

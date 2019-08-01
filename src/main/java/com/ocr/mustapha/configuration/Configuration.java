@@ -3,7 +3,7 @@ import java.io.InputStream;
 import java.util.PropertyResourceBundle;
 
 /**
- *Cette classe premet d'appeler les variables Chance et Combinaison dans le config.properties
+ *Cette classe premet d'appeler les variables Chance et Combinaison et Develloper dans le config.properties
  */
 public class Configuration {
 
